@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,i;
+    bool isprime = true;
+    std::cout<<"Enter the number is prime or composite"<<endl;
+    cin>>n;
+    
+    if(n<1)
+    {
+        std::cout<<"Number need to be greater than one";
+    }
+    else if(n==1)
+    {
+        std::cout<<"Number is neither prime or compisite";
+    }
+    else
+    {
+        for(i=2;i<=n/2;i++)
+        {
+            if(n%i==0)
+            {
+                isprime = false;
+                break;
+            }
+        }
+        if(isprime)
+        {
+            std::cout<<"Given Number is prime";
+        }
+        else
+        {
+            std::cout<<"Given Number is composite number";
+        }
+    }
+    return 0;
+}
