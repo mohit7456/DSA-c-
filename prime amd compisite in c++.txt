@@ -26,6 +26,7 @@ int main()
                 break;
             }
         }
+        
         if(isprime)
         {
             std::cout<<"Given Number is prime";
