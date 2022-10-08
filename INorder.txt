@@ -16,7 +16,7 @@ Node* newNode(int data)
     return temp;
 }
  
-/* Given a binary tree, print its nodes in inorder*/
+
 void printInorder(struct Node* node)
 {
     if (node == NULL)
