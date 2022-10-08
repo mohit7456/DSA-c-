@@ -15,9 +15,7 @@ Node* newNode(int data)
     temp->left = temp->right = NULL;
     return temp;
 }
- 
-/* Given a binary tree, print its nodes according to the
-"bottom-up" postorder traversal. */
+
 void printPostorder(struct Node* node)
 {
     if (node == NULL)
