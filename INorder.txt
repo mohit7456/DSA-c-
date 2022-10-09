@@ -28,7 +28,7 @@ void printInorder(struct Node* node)
     /* then print the data of node */
     cout << node->data << " ";
  
-    /* now recur on right child */
+    
     printInorder(node->right);
 }
  
