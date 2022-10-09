@@ -6,8 +6,6 @@ struct Node {
     int data;
     struct Node *left, *right;
 };
- 
-// Utility function to create a new tree node
 Node* newNode(int data)
 {
     Node* temp = new Node;
