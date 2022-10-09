@@ -8,8 +8,7 @@ int main()
     std::cout<<"Enter the number is prime or composite"<<endl;
     cin>>n;
     
-    if(n<1)
-    {
+    if(n<1) {
         std::cout<<"Number need to be greater than one";
     }
     else if(n==1)
